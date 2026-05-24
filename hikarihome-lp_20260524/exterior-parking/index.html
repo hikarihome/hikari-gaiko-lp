@@ -1,0 +1,711 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>外構・駐車場相談｜光ホーム</title>
+  <meta name="description" content="名古屋市緑区の光ホームが、外構・駐車場まわりの使いにくさを写真だけでも相談受付。駐車場拡張、カーポート、スロープ、フェンス、防犯まで暮らし目線でご提案します。">
+  <style>
+    :root {
+      --green: #4f8f5b;
+      --deep-green: #2f6f45;
+      --earth: #8a7656;
+      --olive: #73845a;
+      --brown: #b98b63;
+      --cream: #fff7ea;
+      --paper: #fffdf8;
+      --sand: #eadcc5;
+      --ink: #3a2e25;
+      --muted: #6f6257;
+      --line: #06c755;
+      --shadow: 0 18px 50px rgba(58, 46, 37, .14);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Yu Gothic", "Meiryo", "Noto Sans JP", system-ui, sans-serif;
+      line-height: 1.78;
+      letter-spacing: 0;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      min-height: 92vh;
+      display: grid;
+      align-items: center;
+      background:
+        linear-gradient(rgba(255, 248, 236, .88), rgba(255, 248, 236, .94)),
+        url("./hero-exterior-parking.png") center right / cover no-repeat;
+      border-bottom: 8px solid #d9cfbd;
+    }
+
+    .hero-inner {
+      max-width: 790px;
+      padding: 54px 0 78px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      margin: 0 0 18px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: #f0e1c8;
+      color: #4d3e2b;
+      font-weight: 900;
+      font-size: clamp(15px, 2.8vw, 18px);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 8.5vw, 68px);
+      line-height: 1.16;
+      font-weight: 900;
+    }
+
+    .hero-lead {
+      margin: 22px 0 0;
+      font-size: clamp(19px, 4.8vw, 30px);
+      line-height: 1.55;
+      font-weight: 900;
+    }
+
+    .benefit-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .benefit-chips li {
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: white;
+      color: var(--deep-green);
+      border: 2px solid #d9e4cd;
+      font-size: clamp(15px, 3.4vw, 18px);
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(58, 46, 37, .08);
+    }
+
+    .message-box {
+      margin: 20px 0 0;
+      max-width: 740px;
+      padding: 18px 20px;
+      border-radius: 8px;
+      background: white;
+      border: 3px solid var(--earth);
+      box-shadow: var(--shadow);
+    }
+
+    .message-box strong {
+      display: block;
+      color: #4d3e2b;
+      font-size: clamp(20px, 5vw, 30px);
+      line-height: 1.35;
+    }
+
+    .message-box span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: clamp(14px, 3.4vw, 17px);
+      font-weight: 800;
+    }
+
+    .local-note {
+      display: inline-flex;
+      margin: 18px 0 0;
+      padding: 12px 16px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .78);
+      color: var(--deep-green);
+      font-weight: 900;
+      font-size: clamp(15px, 3.6vw, 19px);
+    }
+
+    .trust-list {
+      display: grid;
+      gap: 8px;
+      margin: 20px 0 0;
+      padding: 0;
+      list-style: none;
+      font-weight: 900;
+      font-size: clamp(16px, 3.6vw, 20px);
+    }
+
+    .trust-list li::before { content: "✓ "; color: var(--deep-green); }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      margin-top: 28px;
+    }
+
+    .line-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 58px;
+      padding: 15px 28px;
+      border-radius: 999px;
+      background: var(--line);
+      color: white;
+      text-decoration: none;
+      font-size: clamp(18px, 4.5vw, 24px);
+      font-weight: 900;
+      box-shadow: 0 12px 26px rgba(6, 199, 85, .28);
+    }
+
+    .phone {
+      font-size: clamp(17px, 3.8vw, 22px);
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .section { padding: 74px 0; }
+    .section.alt { background: var(--cream); }
+
+    .section-title {
+      margin: 0 auto 18px;
+      max-width: 880px;
+      font-size: clamp(28px, 6.6vw, 44px);
+      line-height: 1.25;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .section-lead {
+      margin: 0 auto 30px;
+      max-width: 820px;
+      color: var(--muted);
+      font-size: clamp(17px, 3.8vw, 20px);
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .worries {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+
+    .worries li,
+    .merit-card,
+    .case-card,
+    .faq-item {
+      border-radius: 8px;
+      background: white;
+      box-shadow: var(--shadow);
+    }
+
+    .worries li {
+      padding: 16px 18px;
+      font-weight: 900;
+      border-left: 7px solid var(--earth);
+    }
+
+    .photo-band {
+      margin: 36px auto 0;
+      max-width: 960px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 22px;
+      align-items: center;
+      padding: 30px 32px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--deep-green), var(--olive));
+      color: white;
+      box-shadow: var(--shadow);
+      border: 4px solid rgba(255, 255, 255, .55);
+    }
+
+    .photo-icon {
+      display: grid;
+      place-items: center;
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .18);
+      font-size: 40px;
+      font-weight: 900;
+    }
+
+    .photo-band strong {
+      display: block;
+      font-size: clamp(28px, 6vw, 40px);
+      line-height: 1.35;
+    }
+
+    .photo-band span {
+      display: block;
+      margin-top: 4px;
+      font-weight: 800;
+      opacity: .92;
+    }
+
+    .merits {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .merit-card {
+      padding: 24px;
+      text-align: center;
+    }
+
+    .icon {
+      display: inline-grid;
+      place-items: center;
+      width: 62px;
+      height: 62px;
+      margin-bottom: 14px;
+      border-radius: 50%;
+      background: #efe4cf;
+      color: var(--deep-green);
+      font-size: 26px;
+      font-weight: 900;
+    }
+
+    .merit-card h3,
+    .case-card h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    .merit-card p,
+    .case-card p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .notice {
+      max-width: 880px;
+      margin: 30px auto 0;
+      padding: 18px 22px;
+      border-radius: 8px;
+      background: #f7efe3;
+      border-left: 7px solid var(--earth);
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .cases {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .case-card {
+      overflow: hidden;
+    }
+
+    .case-photo {
+      display: grid;
+      place-items: center;
+      min-height: 190px;
+      background: linear-gradient(135deg, #e9ddc6, #d7e2cf);
+      color: var(--deep-green);
+      font-weight: 900;
+      font-size: clamp(24px, 5vw, 34px);
+    }
+
+    .case-body { padding: 24px; }
+
+    .case-flow {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .case-flow div {
+      padding-top: 12px;
+      border-top: 1px solid #eadcc5;
+    }
+
+    .case-flow dt {
+      margin: 0 0 4px;
+      color: var(--deep-green);
+      font-weight: 900;
+      font-size: 14px;
+    }
+
+    .case-flow dd {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .voice {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: #fff8ec;
+      color: var(--ink);
+      font-weight: 900;
+    }
+
+    .message-section {
+      background: var(--deep-green);
+      color: white;
+      padding: 72px 0;
+    }
+
+    .message-content {
+      display: grid;
+      grid-template-columns: minmax(240px, 380px) 1fr;
+      gap: 34px;
+      align-items: start;
+    }
+
+    .message-visual {
+      min-height: 0;
+      display: grid;
+      place-items: center;
+      border: 2px solid rgba(255, 255, 255, .28);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .13);
+      font-weight: 900;
+      font-size: clamp(34px, 7vw, 46px);
+      line-height: 1.35;
+      text-align: center;
+      padding: 24px;
+    }
+
+    .message-visual-title {
+      display: block;
+    }
+
+    .person-note {
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 10px;
+      align-items: center;
+      width: 100%;
+      margin: 18px 0 0;
+      padding: 9px 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .1);
+      border: 1px solid rgba(255, 255, 255, .28);
+      text-align: left;
+    }
+
+    .person-note img {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 2px solid rgba(255, 255, 255, .7);
+    }
+
+    .person-note strong {
+      display: block;
+      font-size: 13px;
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .person-note span {
+      display: block;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 1.45;
+      font-weight: 800;
+      opacity: .9;
+    }
+
+    .message-content h2 {
+      margin: 0 0 18px;
+      font-size: clamp(28px, 6vw, 42px);
+      line-height: 1.25;
+    }
+
+    .message-content p {
+      margin: 0 0 14px;
+      font-size: clamp(17px, 3.6vw, 21px);
+      font-weight: 800;
+    }
+
+    .message-content ul {
+      margin: 18px 0 0;
+      padding-left: 22px;
+      font-size: clamp(16px, 3.4vw, 20px);
+      font-weight: 900;
+    }
+
+    .faq {
+      display: grid;
+      gap: 14px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      padding: 22px 24px;
+      border-left: 7px solid var(--green);
+    }
+
+    .faq-item h3 {
+      margin: 0 0 6px;
+      font-size: 20px;
+    }
+
+    .faq-item p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .final-cta {
+      text-align: center;
+      padding: 78px 0 90px;
+      background: linear-gradient(180deg, #fff7ea, #eadcc5);
+    }
+
+    .final-cta h2 {
+      margin: 0 0 16px;
+      font-size: clamp(30px, 7vw, 48px);
+      line-height: 1.25;
+    }
+
+    .final-cta p {
+      margin: 0 auto 28px;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: clamp(17px, 4vw, 22px);
+      font-weight: 900;
+    }
+
+    .contact {
+      margin-top: 22px;
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    @media (max-width: 760px) {
+      .hero { min-height: auto; background-position: center bottom; }
+      .hero-inner { padding: 42px 0 58px; }
+      .worries,
+      .merits,
+      .cases,
+      .message-content,
+      .photo-band {
+        grid-template-columns: 1fr;
+      }
+      .line-button { width: 100%; }
+      .message-section { padding: 58px 0; }
+      .message-visual { min-height: 0; }
+      .person-note { grid-template-columns: 50px 1fr; }
+      .person-note img { width: 50px; height: 50px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">名古屋市緑区 外構・駐車場相談</p>
+        <h1>駐車場、<br>使いにくく<br>ないですか？</h1>
+        <p class="hero-lead">「毎日のちょっと不便」だけでも大歓迎です。</p>
+        <p class="local-note">車の停めにくさ、乗り降り、雨の日の動線まで相談できます。</p>
+        <ul class="benefit-chips">
+          <li>駐車場拡張</li>
+          <li>カーポート</li>
+          <li>スロープ</li>
+          <li>フェンス</li>
+          <li>防犯</li>
+          <li>写真だけ相談</li>
+        </ul>
+        <div class="message-box">
+          <strong>外構は、見た目だけでなく「毎日の使いやすさ」に関わる場所です。</strong>
+          <span>車の停め方、ご家族の年齢、子どもの飛び出し、将来のことまで、暮らしに合わせて一緒に考えます。</span>
+        </div>
+        <ul class="trust-list">
+          <li>まだ工事するか決まってなくてもOK</li>
+          <li>小さな外構相談も歓迎</li>
+          <li>無理に大きな工事をすすめません</li>
+        </ul>
+        <div class="cta-row">
+          <a class="line-button" href="https://lin.ee/wywq1NS">LINEで相談はこちら</a>
+          <a class="phone" href="tel:0120539860">電話 0120-539-860</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">こんなお悩みありませんか？</h2>
+        <ul class="worries">
+          <li>車を停めるたびに気を使う</li>
+          <li>子どもの乗り降りがしにくい</li>
+          <li>雨の日に荷物運びが大変</li>
+          <li>高齢の親が歩きにくそう</li>
+          <li>ブロック塀や段差が気になる</li>
+          <li>庭が雑草だらけで使えていない</li>
+          <li>外からの視線が気になる</li>
+          <li>防犯面も少し不安</li>
+        </ul>
+        <div class="photo-band">
+          <div class="photo-icon">📷</div>
+          <div>
+            <strong>写真だけでもOK！</strong>
+            <span>駐車場・玄関まわり・庭・フェンスの写真を送っていただければ、確認できる範囲からご案内します。</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <h2 class="section-title">外構は「不便」を減らすリフォームです</h2>
+        <p class="section-lead">外構工事というと大きな工事に感じますが、実際は「毎日の小さなストレス」を減らす相談が多いです。</p>
+        <div class="merits">
+          <article class="merit-card">
+            <div class="icon">車</div>
+            <h3>停めやすくする</h3>
+            <p>駐車スペースの広さや角度を見直すだけで、毎日の負担が減ることがあります。</p>
+          </article>
+          <article class="merit-card">
+            <div class="icon">雨</div>
+            <h3>雨の日をラクに</h3>
+            <p>カーポートや動線改善で、荷物やお子さんの乗り降りがしやすくなります。</p>
+          </article>
+          <article class="merit-card">
+            <div class="icon">安</div>
+            <h3>将来も安心</h3>
+            <p>段差・スロープ・門まわりを整えると、高齢になってからも使いやすくなります。</p>
+          </article>
+        </div>
+        <div class="notice">外構は、全部作り替えなくても改善できる場合があります。今使いにくい場所を見ながら、必要な工事を一緒に考えます。</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">外構・駐車場のご相談例</h2>
+        <p class="section-lead">「こういう困りごとで相談できますよ」少しだけご紹介します。</p>
+        <div class="cases">
+          <article class="case-card">
+            <div class="case-photo">駐車場拡張</div>
+            <div class="case-body">
+              <h3>車が停めにくい毎日のストレス</h3>
+              <dl class="case-flow">
+                <div>
+                  <dt>ご相談内容</dt>
+                  <dd>「車の乗り降りがしにくい」「毎日の出入りが大変」</dd>
+                </div>
+                <div>
+                  <dt>ご提案</dt>
+                  <dd>駐車スペースや動線を見直し、乗り降りしやすい形をご提案。</dd>
+                </div>
+              </dl>
+              <div class="voice">お客様の声<br>「もっと早く相談すればよかったです」</div>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-photo">玄関まわり</div>
+            <div class="case-body">
+              <h3>雨の日や将来を考えた動線改善</h3>
+              <dl class="case-flow">
+                <div>
+                  <dt>ご相談内容</dt>
+                  <dd>「雨の日の荷物運びが大変」「親の出入りが少し不安」</dd>
+                </div>
+                <div>
+                  <dt>ご提案</dt>
+                  <dd>段差や動線を見直し、将来も使いやすい形をご提案。</dd>
+                </div>
+              </dl>
+              <div class="voice">お客様の声<br>「毎日の負担が減りました」</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="message-section">
+      <div class="wrap message-content">
+        <div class="message-visual">
+          <span class="message-visual-title">8人パパの<br>外構相談</span>
+          <div class="person-note">
+            <img src="./kobata-photo.jpg" alt="光ホーム代表 木幡">
+            <div>
+              <strong>代表 木幡が、暮らし目線で考えます。</strong>
+              <span>小さな不便も、相談してください。</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>見た目より先に、暮らしやすさを考えます</h2>
+          <p>光ホームは、名古屋市緑区の地域密着リフォーム店です。</p>
+          <p>外構は「かっこよくする」だけではなく、家族の安全、雨の日の動きやすさ、防犯、将来の安心にも関わります。</p>
+          <p>だからこそ、無理に大きな工事をすすめるのではなく、今のお困りごとに必要な工事を正直にお伝えします。</p>
+          <ul>
+            <li>写真だけでも確認できます</li>
+            <li>やらなくていい工事はすすめません</li>
+            <li>ご家族の暮らし方に合わせて考えます</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <h2 class="section-title">よくある質問</h2>
+        <div class="faq">
+          <article class="faq-item">
+            <h3>Q. まだ工事するか決まっていません</h3>
+            <p>もちろん大丈夫です。まずは「何が不便か」を整理するところからご相談ください。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. 写真だけで分かりますか？</h3>
+            <p>分かる範囲があります。駐車場全体、玄関まわり、気になる段差や塀の写真があると確認しやすいです。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. 小さな外構工事でも相談できますか？</h3>
+            <p>はい。フェンス一部、段差、砂利、防草シート、カーポートなど、小さなご相談も歓迎しています。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. 全部作り替えないとダメですか？</h3>
+            <p>そんなことはありません。使えるものは活かしながら、必要な部分だけ整える方法も一緒に考えます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wrap">
+        <h2>「駐車場、ちょっと使いにくい」だけでも大丈夫です</h2>
+        <p>名古屋市緑区の光ホームが、写真だけでも分かりやすくご案内します。</p>
+        <a class="line-button" href="https://lin.ee/wywq1NS">LINEで相談はこちら</a>
+        <div class="contact">
+          <div>8人パパのリフォーム店 株式会社 光ホーム</div>
+          <div>0120-539-860 / info@hikareform.com</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+

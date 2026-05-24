@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>内窓・窓リフォーム補助金相談｜光ホーム</title>
+  <meta name="description" content="名古屋市緑区の光ホームが、内窓・窓リフォームの補助金相談を分かりやすくサポート。夏暑い・冬寒い・結露・防音のお悩みを写真だけでも相談できます。">
+  <style>
+    :root {
+      --green: #4f8f5b;
+      --deep-green: #2f6f45;
+      --orange: #f29f57;
+      --cream: #fff7ea;
+      --paper: #fffdf8;
+      --yellow: #ffe59b;
+      --ink: #3a2e25;
+      --muted: #6f6257;
+      --line: #06c755;
+      --blue: #dff1f5;
+      --shadow: 0 18px 50px rgba(58, 46, 37, .14);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Yu Gothic", "Meiryo", "Noto Sans JP", system-ui, sans-serif;
+      line-height: 1.78;
+      letter-spacing: 0;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      min-height: 92vh;
+      display: grid;
+      align-items: center;
+      background:
+        linear-gradient(rgba(255, 248, 236, .88), rgba(255, 248, 236, .92)),
+        url("./hero-window.png") center right / cover no-repeat;
+      border-bottom: 8px solid #d7e7cf;
+    }
+
+    .hero-inner {
+      max-width: 780px;
+      padding: 54px 0 78px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      margin: 0 0 18px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: var(--yellow);
+      color: #5d3b13;
+      font-weight: 900;
+      font-size: clamp(15px, 2.8vw, 18px);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 8.5vw, 68px);
+      line-height: 1.16;
+      font-weight: 900;
+    }
+
+    .hero-lead {
+      margin: 22px 0 0;
+      font-size: clamp(19px, 4.8vw, 30px);
+      line-height: 1.55;
+      font-weight: 900;
+    }
+
+    .benefit-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .benefit-chips li {
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: white;
+      color: var(--deep-green);
+      border: 2px solid #d6e7c7;
+      font-size: clamp(15px, 3.4vw, 18px);
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(58, 46, 37, .08);
+    }
+
+    .subsidy-box {
+      margin: 20px 0 0;
+      max-width: 720px;
+      padding: 18px 20px;
+      border-radius: 8px;
+      background: white;
+      border: 3px solid #f0c96b;
+      box-shadow: var(--shadow);
+    }
+
+    .mini-subsidy {
+      margin: 18px 0 0;
+      display: inline-flex;
+      max-width: 100%;
+      padding: 12px 16px;
+      border-radius: 8px;
+      background: #fff1c2;
+      color: #5d3b13;
+      font-size: clamp(15px, 3.6vw, 19px);
+      font-weight: 900;
+      line-height: 1.45;
+    }
+
+    .subsidy-box strong {
+      display: block;
+      color: #5d3b13;
+      font-size: clamp(20px, 5vw, 30px);
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .subsidy-box span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: clamp(14px, 3.4vw, 17px);
+      line-height: 1.6;
+      font-weight: 800;
+    }
+
+    .local-note {
+      margin: 16px 0 0;
+      color: var(--deep-green);
+      font-size: clamp(16px, 3.8vw, 20px);
+      font-weight: 900;
+    }
+
+    .trust-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 28px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .trust-list li {
+      padding: 14px 12px;
+      border: 2px solid #f0d7ae;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .78);
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(14px, 3.3vw, 18px);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 32px;
+      align-items: center;
+    }
+
+    .line-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 82px;
+      padding: 0 46px;
+      border-radius: 999px;
+      background: var(--line);
+      color: white;
+      text-decoration: none;
+      font-size: clamp(22px, 5vw, 28px);
+      font-weight: 900;
+      box-shadow: 0 14px 0 #049c43, 0 18px 34px rgba(6, 199, 85, .28);
+    }
+
+    .phone {
+      color: var(--deep-green);
+      font-size: 18px;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .section { padding: 76px 0; }
+    .section.alt { background: var(--cream); }
+
+    .section-title {
+      margin: 0 0 24px;
+      font-size: clamp(28px, 6.6vw, 44px);
+      line-height: 1.25;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .section-lead {
+      max-width: 760px;
+      margin: 0 auto 34px;
+      text-align: center;
+      color: var(--muted);
+      font-size: clamp(16px, 3.8vw, 20px);
+      font-weight: 800;
+    }
+
+    .worries {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+
+    .worries li,
+    .merit-card,
+    .case-card,
+    .faq-item {
+      border-radius: 8px;
+      background: white;
+      box-shadow: var(--shadow);
+    }
+
+    .worries li {
+      padding: 16px 18px;
+      font-weight: 900;
+      border-left: 7px solid var(--orange);
+    }
+
+    .photo-band {
+      margin: 36px auto 0;
+      max-width: 860px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 24px 26px;
+      border-radius: 8px;
+      background: var(--deep-green);
+      color: white;
+      box-shadow: var(--shadow);
+    }
+
+    .photo-icon {
+      display: grid;
+      place-items: center;
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .18);
+      font-size: 34px;
+      font-weight: 900;
+    }
+
+    .photo-band strong {
+      display: block;
+      font-size: clamp(22px, 5vw, 32px);
+      line-height: 1.35;
+    }
+
+    .photo-band span {
+      display: block;
+      margin-top: 4px;
+      font-weight: 800;
+      opacity: .92;
+    }
+
+    .merits {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .merit-card {
+      padding: 24px 20px;
+      min-height: 220px;
+    }
+
+    .merit-card .icon {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .merit-card h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    .merit-card p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .notice {
+      max-width: 880px;
+      margin: 30px auto 0;
+      padding: 18px 22px;
+      border-radius: 8px;
+      background: #fff7eb;
+      border-left: 7px solid var(--orange);
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .cases {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .case-card {
+      overflow: hidden;
+      border: 2px solid #f0e1ca;
+    }
+
+    .case-photo {
+      display: grid;
+      place-items: center;
+      min-height: 190px;
+      background: linear-gradient(135deg, #dff1f5, #f7ead7);
+      color: var(--deep-green);
+      font-weight: 900;
+      font-size: 26px;
+    }
+
+    .case-body { padding: 22px; }
+
+    .case-body h3 {
+      margin: 0 0 10px;
+      font-size: 23px;
+      line-height: 1.35;
+    }
+
+    .case-body p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .case-flow {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .case-flow div {
+      padding-top: 12px;
+      border-top: 1px solid #f0e1ca;
+    }
+
+    .case-flow dt {
+      margin: 0 0 4px;
+      color: var(--deep-green);
+      font-weight: 900;
+      font-size: 14px;
+    }
+
+    .case-flow dd {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .voice {
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: #fff8ec;
+      color: var(--ink);
+      font-weight: 900;
+    }
+
+    .message-band {
+      background: var(--deep-green);
+      color: white;
+      padding: 72px 0;
+    }
+
+    .message {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 34px;
+      align-items: start;
+    }
+
+    .dad-badge {
+      min-height: 0;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .13);
+      border: 2px solid rgba(255, 255, 255, .28);
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(26px, 6vw, 44px);
+      line-height: 1.35;
+    }
+
+    .dad-title {
+      display: block;
+    }
+
+    .person-note {
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 10px;
+      align-items: center;
+      width: 100%;
+      margin: 18px 0 0;
+      padding: 9px 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .1);
+      border: 1px solid rgba(255, 255, 255, .28);
+      text-align: left;
+    }
+
+    .person-note img {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 2px solid rgba(255, 255, 255, .7);
+    }
+
+    .person-note strong {
+      display: block;
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .person-note span {
+      display: block;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 1.45;
+      font-weight: 800;
+      opacity: .9;
+    }
+
+    .message-text h2 {
+      margin: 0 0 18px;
+      font-size: clamp(28px, 6vw, 42px);
+      line-height: 1.25;
+    }
+
+    .message-text p,
+    .message-text li {
+      font-size: clamp(16px, 3.8vw, 20px);
+      font-weight: 800;
+    }
+
+    .message-text ul {
+      margin: 18px 0 0;
+      padding-left: 1.2em;
+    }
+
+    .faq {
+      display: grid;
+      gap: 14px;
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      padding: 22px 24px;
+      border-left: 7px solid var(--green);
+    }
+
+    .faq-item h3 {
+      margin: 0 0 6px;
+      font-size: 20px;
+    }
+
+    .faq-item p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .final-cta {
+      text-align: center;
+      padding: 78px 0 90px;
+      background: #fff1d6;
+    }
+
+    .final-cta h2 {
+      margin: 0 0 16px;
+      font-size: clamp(30px, 7vw, 48px);
+      line-height: 1.25;
+    }
+
+    .final-cta p {
+      margin: 0 auto 28px;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: clamp(17px, 4vw, 22px);
+      font-weight: 900;
+    }
+
+    .contact {
+      margin-top: 24px;
+      font-weight: 900;
+      color: var(--ink);
+    }
+
+    @media (max-width: 840px) {
+      .hero {
+        min-height: 88vh;
+        background-position: center bottom;
+      }
+
+      .hero-inner { padding: 38px 0 58px; }
+
+      .trust-list,
+      .worries,
+      .merits,
+      .cases,
+      .message,
+      .photo-band {
+        grid-template-columns: 1fr;
+      }
+
+      .merit-card { min-height: auto; }
+
+      .photo-icon { margin: 0 auto; }
+
+      .line-button {
+        width: 100%;
+      }
+
+      .phone {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">2026年版 内窓・窓リフォーム補助金相談</p>
+        <h1>夏暑い・冬寒いを<br>我慢していませんか？</h1>
+        <p class="hero-lead">「うちの窓って対象？」だけでも大歓迎です。</p>
+        <div class="mini-subsidy">条件次第では、大型補助制度の対象になる場合があります。</div>
+        <ul class="benefit-chips">
+          <li>寒さ対策</li>
+          <li>暑さ対策</li>
+          <li>結露対策</li>
+          <li>防音対策</li>
+          <li>光熱費対策</li>
+        </ul>
+        <div class="subsidy-box">
+          <strong>条件や窓数によっては、最大100万円相当の制度対象になるケースもあります。</strong>
+          <span>製品性能・窓の大きさ・申請条件によって補助額は変わります。まずは「対象になるか」から一緒に確認します。</span>
+        </div>
+        <p class="local-note">名古屋市緑区で、内窓・断熱リフォームのご相談が増えています。</p>
+        <ul class="trust-list">
+          <li>写真だけの相談OK</li>
+          <li>まだ決まってなくてもOK</li>
+          <li>押し売りしません</li>
+        </ul>
+        <div class="cta-row">
+          <a class="line-button" href="https://lin.ee/wywq1NS">LINEで相談はこちら</a>
+          <a class="phone" href="tel:0120539860">電話 0120-539-860</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">こんなお悩みありませんか？</h2>
+        <ul class="worries">
+          <li>冬、窓際が寒い</li>
+          <li>夏、エアコンが効きにくい</li>
+          <li>結露でカビが心配</li>
+          <li>外の音が気になる</li>
+          <li>光熱費が上がってきた</li>
+          <li>窓リフォームは高そうで不安</li>
+          <li>補助金の申請が難しそう</li>
+          <li>どの窓から直せばいいか分からない</li>
+        </ul>
+        <div class="photo-band">
+          <div class="photo-icon">📷</div>
+          <div>
+            <strong>写真だけでもOK！</strong>
+            <span>窓まわりの写真を送っていただければ、対象になる可能性や優先順位を一緒に確認します。</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <h2 class="section-title">内窓って、どんなリフォーム？</h2>
+        <p class="section-lead">今ある窓の内側に、もう一枚窓を取り付ける工事です。大がかりに壁を壊す工事ではなく、比較的短時間でできることが多いのも人気の理由です。</p>
+        <div class="merits">
+          <article class="merit-card">
+            <div class="icon">冬</div>
+            <h3>寒さ対策</h3>
+            <p>窓から逃げる熱を抑え、冬の窓際の冷えをやわらげます。</p>
+          </article>
+          <article class="merit-card">
+            <div class="icon">夏</div>
+            <h3>暑さ対策</h3>
+            <p>冷房効率を高め、夏の暑さ対策にもつながります。</p>
+          </article>
+          <article class="merit-card">
+            <div class="icon">結</div>
+            <h3>結露対策</h3>
+            <p>窓まわりの結露やカビが気になる方にも選ばれています。</p>
+          </article>
+          <article class="merit-card">
+            <div class="icon">音</div>
+            <h3>防音対策</h3>
+            <p>道路や近隣の音が気になるお部屋にもおすすめです。</p>
+          </article>
+        </div>
+        <div class="notice">補助金は、予算の上限に達すると受付終了となる場合があります。気になる方は、早めの確認がおすすめです。</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">内窓・補助金のご相談例</h2>
+        <p class="section-lead">「こういう困りごとで相談できますよ」少しだけご紹介します。</p>
+        <div class="cases">
+          <article class="case-card">
+            <div class="case-photo">冬の寒さ対策</div>
+            <div class="case-body">
+              <h3>名古屋市緑区｜リビングの窓</h3>
+              <dl class="case-flow">
+                <div>
+                  <dt>ご相談内容</dt>
+                  <dd>「冬になると窓際が寒い」「補助金が使えるか知りたい」</dd>
+                </div>
+                <div>
+                  <dt>ご提案</dt>
+                  <dd>対象になる可能性を確認しながら、必要な窓から内窓リフォームをご提案。</dd>
+                </div>
+              </dl>
+              <div class="voice">お客様の声<br>「もっと早く相談すればよかったです」</div>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-photo">結露・防音相談</div>
+            <div class="case-body">
+              <h3>寝室・道路側の窓</h3>
+              <dl class="case-flow">
+                <div>
+                  <dt>ご相談内容</dt>
+                  <dd>「結露が気になる」「道路の音が気になる」</dd>
+                </div>
+                <div>
+                  <dt>ご提案</dt>
+                  <dd>暮らし方に合わせて、どの窓から整えると良いか優先順位を一緒に確認。</dd>
+                </div>
+              </dl>
+              <div class="voice">お客様の声<br>「説明が分かりやすくて安心でした」</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="message-band">
+      <div class="wrap message">
+        <div class="dad-badge">
+          <span class="dad-title">8人パパの<br>リフォーム店</span>
+          <div class="person-note">
+            <img src="./kobata-photo.jpg" alt="光ホーム代表 木幡">
+            <div>
+              <strong>代表 木幡が、暮らし目線で考えます。</strong>
+              <span>小さな不便も、相談してください。</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-text">
+          <h2>必要な窓から、正直にご提案します</h2>
+          <p>光ホームは、名古屋市緑区の地域密着リフォーム店です。</p>
+          <p>全部の窓を一度に替えるのが正解とは限りません。寒い部屋、よく使う部屋、結露がひどい窓など、暮らしに合わせて一緒に考えます。</p>
+          <ul>
+            <li>まだ工事するか決まってなくてもOK</li>
+            <li>写真だけでも確認できます</li>
+            <li>押し売りはしません</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">よくある質問</h2>
+        <div class="faq">
+          <article class="faq-item">
+            <h3>Q. まず相談だけでも大丈夫？</h3>
+            <p>もちろん大丈夫です。「うちの窓は対象？」だけでもお気軽にご相談ください。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. 1か所だけでも相談できますか？</h3>
+            <p>はい。まずは気になる窓だけでも確認できます。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. 補助金額はすぐ分かりますか？</h3>
+            <p>窓の大きさや製品性能、工事内容によって変わります。写真や寸法を確認しながら概算をご案内します。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. マンションでもできますか？</h3>
+            <p>条件や管理規約によって変わります。まずは窓の写真や状況を見ながら、確認できる範囲からご案内します。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wrap">
+        <h2>「うちの窓って対象？」だけでも大歓迎です</h2>
+        <p>名古屋市緑区でも、窓のご相談が増えています。写真を送るだけでもOKです。</p>
+        <a class="line-button" href="https://lin.ee/wywq1NS">LINEで相談はこちら</a>
+        <div class="contact">
+          <div>8人パパのリフォーム店 株式会社 光ホーム</div>
+          <div>0120-539-860 / info@hikareform.com</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>給湯器・エコキュート補助金相談｜光ホーム</title>
+  <meta name="description" content="名古屋市緑区の光ホームが、給湯器・エコキュート交換の補助金相談を分かりやすくサポート。壊れる前の相談、写真だけの相談も歓迎です。">
+  <style>
+    :root {
+      --green: #4f8f5b;
+      --deep-green: #2f6f45;
+      --orange: #df7b3a;
+      --warm-orange: #f4a261;
+      --cream: #fff4e3;
+      --paper: #fffdf8;
+      --yellow: #ffe1a8;
+      --ink: #3a2e25;
+      --muted: #6f6257;
+      --line: #06c755;
+      --blue: #dff1f5;
+      --shadow: 0 18px 50px rgba(58, 46, 37, .14);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Yu Gothic", "Meiryo", "Noto Sans JP", system-ui, sans-serif;
+      line-height: 1.78;
+      letter-spacing: 0;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      min-height: 92vh;
+      display: grid;
+      align-items: center;
+      background:
+        linear-gradient(rgba(255, 246, 232, .88), rgba(255, 246, 232, .94)),
+        url("./hero-ecocute.png") center right / cover no-repeat;
+      border-bottom: 8px solid #f0d7ae;
+    }
+
+    .hero-inner {
+      max-width: 790px;
+      padding: 54px 0 78px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      margin: 0 0 18px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: var(--yellow);
+      color: #5d3b13;
+      font-weight: 900;
+      font-size: clamp(15px, 2.8vw, 18px);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 8.5vw, 68px);
+      line-height: 1.16;
+      font-weight: 900;
+    }
+
+    .hero-lead {
+      margin: 22px 0 0;
+      font-size: clamp(19px, 4.8vw, 30px);
+      line-height: 1.55;
+      font-weight: 900;
+    }
+
+    .benefit-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .benefit-chips li {
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: white;
+      color: var(--deep-green);
+      border: 2px solid #d6e7c7;
+      font-size: clamp(15px, 3.4vw, 18px);
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(58, 46, 37, .08);
+    }
+
+    .subsidy-box {
+      margin: 20px 0 0;
+      max-width: 720px;
+      padding: 18px 20px;
+      border-radius: 8px;
+      background: white;
+      border: 3px solid var(--warm-orange);
+      box-shadow: var(--shadow);
+    }
+
+    .subsidy-box strong {
+      display: block;
+      color: #6b3518;
+      font-size: clamp(20px, 5vw, 30px);
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .subsidy-box span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: clamp(14px, 3.4vw, 17px);
+      line-height: 1.6;
+      font-weight: 800;
+    }
+
+    .local-note {
+      margin: 16px 0 0;
+      color: var(--deep-green);
+      font-size: clamp(16px, 3.8vw, 20px);
+      font-weight: 900;
+    }
+
+    .trust-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 28px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .trust-list li {
+      padding: 14px 12px;
+      border: 2px solid #f0d7ae;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .78);
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(14px, 3.3vw, 18px);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 32px;
+      align-items: center;
+    }
+
+    .line-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 82px;
+      padding: 0 46px;
+      border-radius: 999px;
+      background: var(--line);
+      color: white;
+      text-decoration: none;
+      font-size: clamp(22px, 5vw, 28px);
+      font-weight: 900;
+      box-shadow: 0 14px 0 #049c43, 0 18px 34px rgba(6, 199, 85, .28);
+    }
+
+    .phone {
+      color: var(--deep-green);
+      font-size: 18px;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .section { padding: 76px 0; }
+    .section.alt { background: var(--cream); }
+
+    .section-title {
+      margin: 0 0 24px;
+      font-size: clamp(28px, 6.6vw, 44px);
+      line-height: 1.25;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .section-lead {
+      max-width: 760px;
+      margin: 0 auto 34px;
+      text-align: center;
+      color: var(--muted);
+      font-size: clamp(16px, 3.8vw, 20px);
+      font-weight: 800;
+    }
+
+    .worries {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+
+    .worries li,
+    .merit-card,
+    .case-card,
+    .faq-item {
+      border-radius: 8px;
+      background: white;
+      box-shadow: var(--shadow);
+    }
+
+    .worries li {
+      padding: 16px 18px;
+      font-weight: 900;
+      border-left: 7px solid var(--orange);
+    }
+
+    .photo-band {
+      margin: 36px auto 0;
+      max-width: 960px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 22px;
+      align-items: center;
+      padding: 30px 32px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--deep-green), #4f8f5b);
+      color: white;
+      box-shadow: var(--shadow);
+      border: 4px solid rgba(255, 255, 255, .55);
+    }
+
+    .photo-icon {
+      display: grid;
+      place-items: center;
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .18);
+      font-size: 40px;
+      font-weight: 900;
+    }
+
+    .photo-band strong {
+      display: block;
+      font-size: clamp(28px, 6vw, 40px);
+      line-height: 1.35;
+    }
+
+    .photo-band span {
+      display: block;
+      margin-top: 4px;
+      font-weight: 800;
+      opacity: .92;
+    }
+
+    .merits {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .merit-card {
+      padding: 24px 20px;
+      min-height: 230px;
+    }
+
+    .merit-card .icon {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .merit-card h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    .merit-card p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .notice {
+      max-width: 880px;
+      margin: 30px auto 0;
+      padding: 18px 22px;
+      border-radius: 8px;
+      background: #fff3e0;
+      border-left: 7px solid var(--orange);
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .cases {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .case-card {
+      overflow: hidden;
+      border: 2px solid #f0e1ca;
+    }
+
+    .case-photo {
+      display: grid;
+      place-items: center;
+      min-height: 190px;
+      background: linear-gradient(135deg, #fff1d8, #f7c591);
+      color: var(--deep-green);
+      font-weight: 900;
+      font-size: 26px;
+    }
+
+    .case-body { padding: 22px; }
+
+    .case-body h3 {
+      margin: 0 0 10px;
+      font-size: 23px;
+      line-height: 1.35;
+    }
+
+    .case-body p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .case-flow {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .case-flow div {
+      padding-top: 12px;
+      border-top: 1px solid #f0e1ca;
+    }
+
+    .case-flow dt {
+      margin: 0 0 4px;
+      color: var(--deep-green);
+      font-weight: 900;
+      font-size: 14px;
+    }
+
+    .case-flow dd {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .voice {
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: #fff4e3;
+      color: var(--ink);
+      font-weight: 900;
+    }
+
+    .message-band {
+      background: var(--deep-green);
+      color: white;
+      padding: 72px 0;
+    }
+
+    .message {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 34px;
+      align-items: start;
+    }
+
+    .dad-badge {
+      min-height: 0;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .13);
+      border: 2px solid rgba(255, 255, 255, .28);
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(26px, 6vw, 44px);
+      line-height: 1.35;
+    }
+
+    .dad-title {
+      display: block;
+    }
+
+    .person-note {
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 10px;
+      align-items: center;
+      width: 100%;
+      margin: 18px 0 0;
+      padding: 9px 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .1);
+      border: 1px solid rgba(255, 255, 255, .28);
+      text-align: left;
+    }
+
+    .person-note img {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 2px solid rgba(255, 255, 255, .7);
+    }
+
+    .person-note strong {
+      display: block;
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .person-note span {
+      display: block;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 1.45;
+      font-weight: 800;
+      opacity: .9;
+    }
+
+    .message-text h2 {
+      margin: 0 0 18px;
+      font-size: clamp(28px, 6vw, 42px);
+      line-height: 1.25;
+    }
+
+    .message-text p,
+    .message-text li {
+      font-size: clamp(16px, 3.8vw, 20px);
+      font-weight: 800;
+    }
+
+    .message-text ul {
+      margin: 18px 0 0;
+      padding-left: 1.2em;
+    }
+
+    .faq {
+      display: grid;
+      gap: 14px;
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      padding: 22px 24px;
+      border-left: 7px solid var(--green);
+    }
+
+    .faq-item h3 {
+      margin: 0 0 6px;
+      font-size: 20px;
+    }
+
+    .faq-item p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .final-cta {
+      text-align: center;
+      padding: 78px 0 90px;
+      background: linear-gradient(180deg, #fff4df, #ffe2bf);
+    }
+
+    .final-cta h2 {
+      margin: 0 0 16px;
+      font-size: clamp(30px, 7vw, 48px);
+      line-height: 1.25;
+    }
+
+    .final-cta p {
+      margin: 0 auto 28px;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: clamp(17px, 4vw, 22px);
+      font-weight: 900;
+    }
+
+    .contact {
+      margin-top: 24px;
+      font-weight: 900;
+      color: var(--ink);
+    }
+
+    @media (max-width: 840px) {
+      .hero {
+        min-height: 88vh;
+        background-position: center bottom;
+      }
+
+      .hero-inner { padding: 38px 0 58px; }
+
+      .trust-list,
+      .worries,
+      .merits,
+      .cases,
+      .message,
+      .photo-band {
+        grid-template-columns: 1fr;
+      }
+
+      .merit-card { min-height: auto; }
+
+      .photo-icon { margin: 0 auto; }
+
+      .line-button {
+        width: 100%;
+      }
+
+      .phone {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">2026年版 給湯器・エコキュート補助金相談</p>
+        <h1>給湯器は<br>壊れてからでは<br>遅いかも？</h1>
+        <p class="hero-lead">「今の給湯器でも対象？」だけでも大歓迎です。</p>
+        <p class="local-note">ガス給湯器・エコキュート、どちらのご相談も対応しています。</p>
+        <ul class="benefit-chips">
+          <li>10年以上使用</li>
+          <li>お湯の出が不安</li>
+          <li>壊れる前相談</li>
+          <li>今の給湯器でもOK</li>
+          <li>光熱費対策</li>
+          <li>エコキュート</li>
+          <li>補助金相談</li>
+        </ul>
+        <div class="subsidy-box">
+          <strong>エコキュートは、製品性能などの条件により7万円または10万円の補助対象になる場合があります。</strong>
+          <span>ガス給湯器・エコキュート・高効率給湯器は、対象条件や制度が異なる場合があります。まずは「対象になるか」から一緒に確認します。</span>
+        </div>
+        <p class="local-note">名古屋市緑区で、給湯器・エコキュートのご相談が増えています。</p>
+        <ul class="trust-list">
+          <li>写真だけの相談OK</li>
+          <li>壊れる前相談OK</li>
+          <li>押し売りしません</li>
+        </ul>
+        <div class="cta-row">
+          <a class="line-button" href="https://lin.ee/wywq1NS">LINEで相談はこちら</a>
+          <a class="phone" href="tel:0120539860">電話 0120-539-860</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">こんなお悩みありませんか？</h2>
+        <ul class="worries">
+          <li>使用状況にもよるけど、10年前後使っている</li>
+          <li>最近、お湯の温度が安定しない</li>
+          <li>突然壊れたら困る</li>
+          <li>エラー表示や異音が気になる</li>
+          <li>交換費用がどれくらいか不安</li>
+          <li>エコキュートが対象か知りたい</li>
+          <li>光熱費が気になっている</li>
+          <li>補助金の申請が難しそう</li>
+          <li>寒くなる前に確認しておきたい</li>
+        </ul>
+        <div class="photo-band">
+          <div class="photo-icon">📷</div>
+          <div>
+            <strong>写真だけでもOK！</strong>
+            <span>給湯器本体・型番シール・設置場所の写真を送っていただければ、確認できる範囲からご案内します。</span>
+          </div>
+        </div>
+        <p class="section-lead">エコキュートは、電気でお湯を作る省エネタイプの給湯設備です。今のお家や使い方に合うかどうかも含めて確認します。</p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <h2 class="section-title">壊れてから困りやすい理由</h2>
+        <p class="section-lead">給湯器は、急に壊れるとお風呂・キッチン・洗面が一気に困ります。急ぎの交換になる前に、今の状態を確認しておくと安心です。</p>
+        <div class="merits">
+          <article class="merit-card">
+            <div class="icon">湯</div>
+            <h3>お湯が使えない</h3>
+            <p>お風呂に入れない、洗い物ができないなど、生活への影響が大きい設備です。</p>
+          </article>
+          <article class="merit-card">
+            <div class="icon">急</div>
+            <h3>急ぎで選びがち</h3>
+            <p>故障後だと、機種や補助金を落ち着いて比較しにくくなります。</p>
+          </article>
+          <article class="merit-card">
+            <div class="icon">省</div>
+            <h3>光熱費対策にも</h3>
+            <p>高効率給湯器は、毎月の光熱費対策として相談される方も増えています。</p>
+          </article>
+        </div>
+        <div class="notice">寒くなる前は、給湯器のご相談が増えやすい時期です。補助金も予算の上限に達すると受付終了となる場合があるため、気になる方は早めの確認がおすすめです。</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">給湯器・エコキュートのご相談例</h2>
+        <p class="section-lead">「こういう困りごとで相談できますよ」少しだけご紹介します。</p>
+        <div class="cases">
+          <article class="case-card">
+            <div class="case-photo">10年以上使用</div>
+            <div class="case-body">
+              <h3>名古屋市緑区｜故障前の交換相談</h3>
+              <dl class="case-flow">
+                <div>
+                  <dt>ご相談内容</dt>
+                  <dd>「10年以上使っている」「急に壊れないか不安」</dd>
+                </div>
+                <div>
+                  <dt>ご提案</dt>
+                  <dd>使用年数や状態を確認し、補助金対象の可能性も含めてご案内。</dd>
+                </div>
+              </dl>
+              <div class="voice">お客様の声<br>「壊れる前に相談できて安心しました」</div>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-photo">エコキュート</div>
+            <div class="case-body">
+              <h3>省エネタイプへの交換相談</h3>
+              <dl class="case-flow">
+                <div>
+                  <dt>ご相談内容</dt>
+                  <dd>「エコキュートに替えられる？」「光熱費も気になる」</dd>
+                </div>
+                <div>
+                  <dt>ご提案</dt>
+                  <dd>設置条件を確認し、補助金と光熱費対策の両方から交換方法をご提案。</dd>
+                </div>
+              </dl>
+              <div class="voice">お客様の声<br>「対象かどうか聞けて助かりました」</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="message-band">
+      <div class="wrap message">
+        <div class="dad-badge">
+          <span class="dad-title">8人パパの<br>リフォーム店</span>
+          <div class="person-note">
+            <img src="./kobata-photo.jpg" alt="光ホーム代表 木幡">
+            <div>
+              <strong>代表 木幡が、暮らし目線で考えます。</strong>
+              <span>小さな不便も、相談してください。</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-text">
+          <h2>無理に交換はすすめません</h2>
+          <p>光ホームは、名古屋市緑区の地域密着リフォーム店です。</p>
+          <p>まだ使えるのか、交換時期なのか、補助金を使った方が良いのかを、暮らしに合わせて正直にお伝えします。</p>
+          <ul>
+            <li>まだ工事するか決まってなくてもOK</li>
+            <li>写真だけでも確認できます</li>
+            <li>小さな不安も相談できます</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">よくある質問</h2>
+        <div class="faq">
+          <article class="faq-item">
+            <h3>Q. まだ壊れていなくても相談できますか？</h3>
+            <p>もちろん大丈夫です。使用年数や設置状況を見ながら、急ぐべきかどうか一緒に確認します。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. 写真だけで分かりますか？</h3>
+            <p>分かる範囲があります。給湯器本体・型番シール・設置場所の写真があると確認しやすいです。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. エコキュートなら必ず補助金対象ですか？</h3>
+            <p>対象機種や条件によって変わります。対象になる可能性を確認してからご案内します。</p>
+          </article>
+          <article class="faq-item">
+            <h3>Q. ガス給湯器とエコキュートで補助金は同じですか？</h3>
+            <p>同じとは限りません。機器の種類・性能・工事内容によって対象制度や補助額が変わるため、今の給湯器の写真から確認していきます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wrap">
+        <h2>「今の給湯器でも対象？」だけでも大歓迎です</h2>
+        <p>名古屋市緑区の光ホームが、分かりやすくご案内します。写真だけでもOKです。</p>
+        <a class="line-button" href="https://lin.ee/wywq1NS">LINEで相談はこちら</a>
+        <div class="contact">
+          <div>8人パパのリフォーム店 株式会社 光ホーム</div>
+          <div>0120-539-860 / info@hikareform.com</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
